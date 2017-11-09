@@ -1,0 +1,32 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+.header{
+	background-color:#FF6A00;
+	width:100%;
+	min-height:75px;
+	padding:10px 0px;
+}
+.header .brand a{
+    font-weight: 700;
+    color: #dedede;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    float: left;
+}
+.header ul {
+    margin-top: 10px;
+}
+.header ul li{
+	list-style-type:none;
+	float:left;
+	heigth:50px;
+}
+.header ul li a{
+	color:#fff;
+	text-decoration:none;
+	float:left;
+	padding:5px 10px;
+}

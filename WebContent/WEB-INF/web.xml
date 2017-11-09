@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>WebAppJava</display-name>
+  <welcome-file-list>
+    <welcome-file>HomePage.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>/MyServlet</servlet-name>
+    <servlet-class>com.webapp.controllers.MyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>/MyServlet</servlet-name>
+    <url-pattern>/HomePage</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>/ListaUserServlet</servlet-name>
+    <servlet-class>com.webapp.controllers.ListaUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>/ListaUserServlet</servlet-name>
+    <url-pattern>/ListaUtenti</url-pattern>
+  </servlet-mapping>
+</web-app>
